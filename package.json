@@ -1,0 +1,34 @@
+{
+  "name": "webpack-learn",
+  "version": "1.0.0",
+  "description": "webpack learn",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "loader-utils": "^2.0.0",
+    "memfs": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack": "^5.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacolin/webpack-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacolin/webpack-learn/issues"
+  },
+  "homepage": "https://github.com/yacolin/webpack-learn#readme"
+}
